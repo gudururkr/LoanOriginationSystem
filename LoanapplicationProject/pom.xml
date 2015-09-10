@@ -6,28 +6,28 @@
   <artifactId>LoanapplicationProject</artifactId>
   <version>1.0</version>
   <name>LoanapplicationProject</name>
-<dependencies>
-<dependency>
-	<groupId>org.apache.jackrabbit</groupId>
-	<artifactId>jackrabbit-core</artifactId>
-	<version>2.11.0</version>
-</dependency>
-<dependency>
-	<groupId>javax.jcr</groupId>
-	<artifactId>jcr</artifactId>
-	<version>2.0</version>
-</dependency>
-<dependency>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.jackrabbit</groupId>
+      <artifactId>jackrabbit-core</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.jcr</groupId>
+      <artifactId>jcr</artifactId>
+      <version>2.0</version>
+    </dependency>
+    <dependency>
       <groupId>commons-io</groupId>
-	  <artifactId>commons-io</artifactId>
+      <artifactId>commons-io</artifactId>
       <version>1.4</version>
     </dependency>
     <dependency>
-	<groupId>org.apache.jackrabbit</groupId>
-	<artifactId>jackrabbit-jcr-rmi</artifactId>
-	<version>2.6.2</version>
-</dependency> 
-</dependencies>
+      <groupId>org.apache.jackrabbit</groupId>
+      <artifactId>jackrabbit-jcr-rmi</artifactId>
+      <version>2.6.2</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
